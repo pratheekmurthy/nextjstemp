@@ -2,7 +2,11 @@
 
 const Login =()=>{
     return (<>
-        <h1 className="jumbotron text-center bg-primary square"> Login Page</h1>
+    <div className="jumbotron text-center bg-primary square">
+        <br/><br/><br/><br/><br/>
+    <h1 className="white"> Login Page</h1>
+    </div>
+        
     </>)
 }
 

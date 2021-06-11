@@ -1,6 +1,14 @@
 import {useState} from 'react'
+import {useSelector} from 'react-redux'
 
 const Register =()=>{
+    const log = useSelector(state => state.log)
+    const countries = useSelector(state => state.countries)
+
+    console.log(countries)
+    console.log(log)
+
+
     const [email,setEmail]= useState("")
     const [password,setPassword] = useState("")
     const [name,setName] = useState("")
